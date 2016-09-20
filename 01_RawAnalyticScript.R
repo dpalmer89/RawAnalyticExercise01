@@ -24,6 +24,6 @@ extroversion <- psych::alpha(as.data.frame(extroversion_items), check.keys = FAL
 affective_commitment <- psych::alpha(as.data.frame(affective_commitment_items), check.keys = FALSE)$scores ##generate affective average
 analytic_data <- cbind(categorical_variables,agreeableness,extroversion,affective_commitment) ##generate new data set that is stiched categorical measures with new averaged measures
 save(analytic_data,file="study1_analytic_data.RData") ##save as a R file
-save(analytic_data,file="study1_analytic_data.csv") ##save as a csv file
+write_csv(analytic_data,path ="study2_analytic_data.csv") ##save as a csv file
 library(haven) ##load haven commands without reference
 write_sav(analytic_data,path="study1_analytic_data.sav") ##save as a spss .sav
