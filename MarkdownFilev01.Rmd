@@ -1,0 +1,25 @@
+---
+title: "My First Markdown"
+author: "DanielP"
+date: "September 20, 2016"
+output:
+  pdf_document:
+    fig_caption: TRUE
+    number_sections: TRUE
+---
+# Organizational Commitment
+The topic of this paper is organizational commitment.
+
+## Affective Commitment
+This is my paragraph on affective commitment.
+
+## Normative Commitment
+This is my paragraph on normative commitment. This is an **important** point
+
+This is an example of **bold** text
+This is an example of *italic* text
+This is an example of ***bold italic***
+
+# OCB
+
+## Altruism
